@@ -53,6 +53,26 @@ module.exports = {
         token,
       };
     },
+    async loginMobile(_, { email, password }) {
+      const { errors, valid } = validateLoginInput(email, password);
+
+      if (!valid) {
+        throw new UserInputError("Errors", { errors });
+      }
+
+      const customer = await Customer.findOne({ email });
+
+      if (!customer) {
+        return "No account";
+      }
+
+      const match = await bcrypt.compare(password, customer.password);
+      if (!match) {
+        return "Account";
+      }
+
+      //const token = generateToken(customer);
+    },
     async UpdateProfile(_, { firstName, lastName, phone, password, id }) {
       try {
         var updatedProfile = {

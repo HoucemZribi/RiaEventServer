@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const typeDefs = require("./graphql/typeDefs");
 const resolvers = require("./graphql/resolvers");
 const { MONGODB } = require("./config.js");
-const bodyParser = require("body-parser");
+///const bodyParser = require("body-parser");
 const cors = require("cors");
 //
 const { SendEmail } = require("./Mailer");
@@ -42,7 +42,7 @@ mongoose
   .connect(MONGODB, { useNewUrlParser: true })
   .then(() => {
     console.log("MongoDB Connected");
-    return app.listen({ port: PORT });
+    return app.listen(80);
   })
   .then((res) => {
     console.log(`Server running at ${PORT}`);

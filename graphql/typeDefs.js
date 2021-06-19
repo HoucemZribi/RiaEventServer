@@ -79,6 +79,7 @@ module.exports = gql`
       password: String!
     ): Admin!
     login(email: String, password: String): Customer!
+    loginMobile(email: String!, password: String!): String!
     loginAdmin(email: String!, password: String!): Admin!
     loginGuest(email: String!, reference: String!): String!
     UpdateProfile(
