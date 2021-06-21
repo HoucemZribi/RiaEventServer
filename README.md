@@ -9,7 +9,7 @@ To get started clone the repo:
 
     $ git clone https://github.com/HoucemZribi/RiaEventServer.git.
 
-# Setup 
+## Setup 
     npm install 
 
 Update config.js file : 
@@ -26,3 +26,5 @@ Add .env file with the following :
   - JWT_EXPIRES_IN
   - EMAIL
   - PASSWORD
+## Run 
+       npm start 
