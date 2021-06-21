@@ -4,13 +4,13 @@ Multimedia in the Higher Institute of Computer Sciences and Multimedia of Gabes.
 Our project carried out within Ria Box organism.The subject of the project is "Conception
 and development of web mobile application for event management".
 This part include the server of our application.
-# Insallation
+## Installation
 To get started clone the repo:
 
-  $ git clone https://github.com/HoucemZribi/RiaEventServer.git.
+    $ git clone https://github.com/HoucemZribi/RiaEventServer.git.
 
 # Setup 
-  npm install 
+    npm install 
 
 Update config.js file : 
 
