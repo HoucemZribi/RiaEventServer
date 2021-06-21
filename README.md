@@ -9,12 +9,10 @@ To download this project : git clone https://github.com/HoucemZribi/RiaEventServ
 
 npm install 
 
-Add config.js file : 
-module.exports = {
-  MONGODB:
-    "Your_Mongo_URI",
-  SECRET_KEY: "Your_Secret_Key",
-};
+Update config.js file : 
+  -MONGODB 
+  -SECRET_KEY: 
+
 
 
 Add .env file with the following : 
