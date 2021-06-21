@@ -27,4 +27,4 @@ Add .env file with the following :
   - EMAIL
   - PASSWORD
 ## Run 
-       npm start 
+    npm start 
