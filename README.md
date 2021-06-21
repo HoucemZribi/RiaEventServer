@@ -10,7 +10,9 @@ To download this project : git clone https://github.com/HoucemZribi/RiaEventServ
 npm install 
 
 Update config.js file : 
+
   -MONGODB 
+  
   -SECRET_KEY: 
 
 
