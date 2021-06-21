@@ -9,6 +9,7 @@ To get started clone the repo:
 
 $ git clone https://github.com/HoucemZribi/RiaEventServer.git.
 
+# Setup 
 npm install 
 
 Update config.js file : 
