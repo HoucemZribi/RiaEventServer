@@ -7,7 +7,7 @@ This part include the server of our application.
 ## Installation
 To get started clone the repo:
 
-    $ git clone https://github.com/HoucemZribi/RiaEventServer.git.
+     git clone https://github.com/HoucemZribi/RiaEventServer.git.
 
 ## Setup 
     npm install 
